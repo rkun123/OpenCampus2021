@@ -1,12 +1,7 @@
 import Viewer from "../work/Viewer.vue";
+export default { title: 'Viewer',};
 
-
-export default { 
-    title: 'Viewer',
-    component: Viewer, 
-};
-
-export const viewer = () => ({
+export const viewer1 = () => ({
     components: { Viewer },
-    templete:'<slide />'
-  });
+    templete:'<Viewer/>'
+});
