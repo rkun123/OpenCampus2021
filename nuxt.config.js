@@ -61,5 +61,9 @@ export default {
 
   googleAnalytics: {
     id: 'G-HT71B54RCT'
+  },
+  target: 'static',
+  router: {
+    base: '/OpenCampus2021/'
   }
 }
