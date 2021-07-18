@@ -64,6 +64,6 @@ export default {
   },
   target: 'static',
   router: {
-    base: 'https://kyutech-c3.github.io/OpenCampus2021/'
+    base: '/OpenCampus2021/'
   }
 }
